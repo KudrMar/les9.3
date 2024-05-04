@@ -1,0 +1,63 @@
+
+.goblinFace {
+    background-image: url(../img/goblin.png);
+}
+
+.game-widget {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+    cursor: url(../img/pngegg.png), auto;
+}
+
+.cell-item {
+    margin: 5px;
+    background-color: darkgreen;
+    width: calc(25% - 5 * 5px);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.points {
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    font-size: 45px;
+    display: flex;
+}
+
+body {
+    color: darkgreen;
+}
+
+.gameOver {
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+}
+
+.info {
+    justify-content: center;
+    width: 600px;
+    height: 40px;
+    font-size: 35px;
+    display: flex;
+}
+
+.cursor {
+    height: 100px;
+    width: 100px;
+    cursor: none;
+    pointer-events: none;
+    position: absolute;
+    background-image: url(../img/pngegg.png);
+    transition: 0, 1s;
+    transform: translate(-50%, -50%);
+}
+
+

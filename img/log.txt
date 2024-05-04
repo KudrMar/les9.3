@@ -1,0 +1,4 @@
+[00:00:00] Build started
+[00:00:00] git clone -q --branch=main https://github.com/KudrMar/les9.2.git C:\projects\les9-2
+[00:00:01] git checkout -qf 719468948e497b4e131d4b7e1d3f8c1e57a6c4a9
+[00:00:01] The build phase is set to "MSBuild" mode (default), but no Visual Studio project or solution files were found in the root directory. If you are not building Visual Studio project switch build mode to "Script" and provide your custom build command.
